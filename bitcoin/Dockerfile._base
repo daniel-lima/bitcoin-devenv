@@ -1,0 +1,17 @@
+ARG base_image
+
+FROM ${base_image}
+
+WORKDIR ${BASE_DIR}
+
+ADD ./bitcoin/provision/* ./bitcoin/provision/
+
+RUN ./bitcoin/provision/_base.sh bitcoin_base
+
+RUN useradd -m docker && adduser docker sudo || id docker
+
+USER docker
+
+VOLUME /projects/bitcoin
+
+USER root

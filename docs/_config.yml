@@ -1,0 +1,5 @@
+theme: minima
+
+header_pages:
+ - docker/index.md
+ - vagrant/index.md

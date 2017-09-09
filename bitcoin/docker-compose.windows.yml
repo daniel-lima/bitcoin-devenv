@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  base_trusty:
+    build:
+        context: ./
+        dockerfile: Dockerfile._base
+        args:
+                - base_image=ubuntu:14.04
+                - base_dir=/docker
+    image: base_trusty
+
+  bitcoin.base_trusty:
+    depends_on:
+        - base_trusty
+    build:
+        context: ./
+        dockerfile: bitcoin/Dockerfile._base
+        args:
+                - base_image=base_trusty
+    image: bitcoin/base_trusty
+
+  bitcoin.windows:
+    depends_on:
+        - bitcoin.base_trusty
+    build:
+        context: ./
+        dockerfile: bitcoin/Dockerfile.windows
+    image: bitcoin/windows
+    container_name: bitcoin.windows
+    volumes:
+        - ${PROJECTS_DIR:-..}/bitcoin:/projects/bitcoin

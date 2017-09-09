@@ -1,0 +1,39 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  machines = [
+    {:shortname => 'ubuntu', :box => 'ubuntu/xenial64'},
+    {:shortname => 'windows', :box => 'ubuntu/trusty64'}
+  ]
+  
+  machines.each do |machine|
+    name = "bitcoin.#{machine[:shortname]}"
+    config.vm.define name, primary: (machine[:shortname] == 'ubuntu'), autostart: false do |node|
+      node.vm.box = machine[:box]
+
+      # On the host machine
+      # sudo ufw allow from 192.168.33.0/24 to 192.168.33.0/24
+      node.vm.synced_folder "#{PROJECTS_DIR}/bitcoin", '/projects/bitcoin'
+      
+      node.vm.provider 'virtualbox' do |vb|
+        # Adjust the amount of memory to satisfy the G++ compiler
+        guest_hardware = Base.inquire_guest_hardware('virtualbox', name)
+        memory = [2048, guest_hardware[:memory] || 0].max
+        if HOST_HARDWARE[:memory] > memory then
+          guest_hardware[:memory] = memory
+          vb.memory = memory.to_s
+        end
+      end
+
+      #node.vm.provision :shell, inline: "mkdir -p #{UPLOAD_DIR}/bitcoin/provision", privileged: false
+      
+      node.vm.provision :shell, path: 'bitcoin/provision/_base.sh', args: 'bitcoin_base', env: ENV.to_hash
+      
+      node.vm.provision :shell, path: "bitcoin/provision/#{machine[:shortname]}.sh",
+                        args: "bitcoin_#{machine[:shortname]}", env: ENV.to_hash
+    end
+  end
+  
+end

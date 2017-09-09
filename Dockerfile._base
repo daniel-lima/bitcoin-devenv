@@ -1,0 +1,13 @@
+ARG base_image
+
+FROM ${base_image}
+
+ARG base_dir
+
+ENV BASE_DIR=${base_dir}
+
+WORKDIR ${BASE_DIR}
+
+ADD ./provision/* ./provision/
+
+RUN ./provision/_base.sh base

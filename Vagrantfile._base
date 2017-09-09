@@ -1,0 +1,77 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+require 'optparse'
+
+module Base
+
+  def Base.parse_options(cmd_line, initial_options)
+    options = initial_options.dup
+    if ENV['BOX_OPTS'] then
+      OptionParser.new do |opts|
+        opts.banner = 'BOX_OPTS=[--projects-dir DIR] [--profile PROFILE]'
+        
+        opts.on('-l f1,f2,f3', Array, 'Load the complementary Vagrant files') do |profiles|
+          options[:profiles] = profiles
+        end
+        
+        opts.on('--projects-dir DIR', 
+                'Define the base directory of all projects') do |dir|
+          options[:projects_dir] = dir
+        end
+      end.parse(cmd_line)    
+    end
+    options.freeze
+  end
+  
+  def Base.inquire_host_hardware
+    host = RbConfig::CONFIG['host_os']
+    caps = {}
+    if host =~ /darwin/ then
+      caps[:cpus] = `sysctl -n hw.ncpu`.to_i
+      caps[:memory] = `sysctl -n hw.memsize`.to_i / 1024 / 1024
+    elsif host =~ /linux/ then
+      caps[:cpus] = `nproc`.to_i
+      caps[:memory] = `grep 'MemTotal' /proc/meminfo | sed -e 's/MemTotal://' -e 's/ kB//'`.to_i / 1024
+    else
+      # Windows?
+      caps[:cpus] = `wmic cpu get NumberOfCores`.split("\n")[2].to_i
+      caps[:memory] = `wmic OS get TotalVisibleMemorySize`.split("\n")[2].to_i / 1024
+    end
+    caps
+  end
+  
+  def Base.inquire_guest_hardware(provider, machine)
+    caps = {}
+    
+    dotfile = '.vagrant'  
+    if ENV['VAGRANT_DOTFILE_PATH'] then
+      dotfile = ENV['VAGRANT_DOTFILE_PATH']
+    end
+    
+    if !machine then
+      machine = 'default'
+    end
+    
+    id_file = "#{dotfile}/machines/#{machine}/#{provider}/id"
+    if File.exist?(id_file) then
+      id = File.read(id_file)
+      
+      case provider
+      when 'virtualbox'
+        data = `VBoxManage showvminfo #{id} -machinereadable`
+        data = Hash[*data.split(/[\n=]+/)]
+        
+        ['memory', 'cpus'].each do |key|
+          value = data[key]
+          if value then
+            caps[:"#{key}"] = value.to_i
+          end
+        end
+      end
+    end
+    
+    caps
+  end
+
+end

@@ -1,0 +1,11 @@
+FROM bitcoin/base_trusty
+
+WORKDIR ${BASE_DIR}
+
+RUN ./bitcoin/provision/windows.sh bitcoin_windows
+
+USER docker
+
+WORKDIR /projects/bitcoin
+
+ENTRYPOINT sleep 99999d

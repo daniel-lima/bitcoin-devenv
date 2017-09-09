@@ -1,0 +1,11 @@
+FROM bitcoin/base_xenial
+
+WORKDIR ${BASE_DIR}
+
+RUN ./bitcoin/provision/ubuntu.sh bitcoin_ubuntu
+
+USER docker
+
+WORKDIR /projects/bitcoin
+
+ENTRYPOINT sleep 99999d
