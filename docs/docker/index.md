@@ -6,9 +6,7 @@ Installing the prerequisites
 
 1. Access [https://docs.docker.com/engine/installation](https://docs.docker.com/engine/installation)
 
-2. Select the CE version suitable to your architecture+operating system
-
-For instance, the instructions for Docker CE on Ubuntu would be [https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+2. Select the CE version suitable to your architecture+operating system (for instance, the instructions for Docker CE on Ubuntu would be [https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/))
 
 3. Follow the instructions on how to install docker
 
