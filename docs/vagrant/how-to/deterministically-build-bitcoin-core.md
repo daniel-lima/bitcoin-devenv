@@ -1,10 +1,6 @@
 ---
 title: How to deterministically build Bitcoin Core (Gitian)
 ---
-How to deterministically build Bitcoin Core (Gitian)
-========
-
-
 #### Creating the environment
 
 The following steps need to be executed just once

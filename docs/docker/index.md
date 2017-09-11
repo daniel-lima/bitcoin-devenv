@@ -1,9 +1,6 @@
 ---
-title: Containerization
+title: Containerization (Docker)
 ---
-Containerization (Docker)
-==============
-
 Installing the prerequisites
 -----------
 

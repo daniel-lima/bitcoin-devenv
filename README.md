@@ -11,15 +11,16 @@ Quick start guides
 
 Using Docker
 
-- How to compile Bitcoin Core for Ubuntu;
-- How to compile Bitcoin Core for Windows;
-- How to...
+- [How to compile Bitcoin Core for Ubuntu](http://daniel-lima.github.io/bitcoin-devenv/docker/how-to/compile-bitcoin-core-for-ubuntu);
+- [How to compile Bitcoin Core for Windows](http://daniel-lima.github.io/bitcoin-devenv/docker/how-to/compile-bitcoin-core-for-windows);
+- [How to...](http://daniel-lima.github.io/bitcoin-devenv/docker)
 
 Using Vagrant
 
-- How to compile Bitcoin Core for Ubuntu;
-- How to compile Bitcoin Core for Windows;
-- How to...
+- [How to compile Bitcoin Core for Ubuntu](http://daniel-lima.github.io/bitcoin-devenv/vagrant/how-to/compile-bitcoin-core-for-ubuntu);
+- [How to compile Bitcoin Core for Windows](http://daniel-lima.github.io/bitcoin-devenv/vagrant/how-to/compile-bitcoin-core-for-windows);
+- [How to deterministically build Bitcoin Core (Gitian)](http://daniel-lima.github.io/bitcoin-devenv/vagrant/how-to/deterministically-build-bitcoin-core);
+- [How to...](http://daniel-lima.github.io/bitcoin-devenv/vagrant)
 
 
 Warning!!!

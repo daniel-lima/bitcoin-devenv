@@ -1,9 +1,6 @@
 ---
-title: Virtualization
+title: Virtualization (Vagrant)
 ---
-Virtualization (Vagrant)
-==============
-
 Installing the prerequisites
 -----------
 

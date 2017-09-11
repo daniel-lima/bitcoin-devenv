@@ -1,10 +1,6 @@
 ---
 title: How to compile Bitcoin Core for Ubuntu
 ---
-How to compile Bitcoin Core for Ubuntu
-========
-
-
 #### Creating the environment
 
 The following steps need to be executed just once

@@ -1,10 +1,6 @@
 ---
 title: How to compile Bitcoin Core for Windows
 ---
-How to compile Bitcoin Core for Windows
-========
-
-
 #### Creating the environment
 
 The following steps need to be executed just once

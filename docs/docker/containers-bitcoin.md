@@ -1,9 +1,6 @@
 ---
 title: Containers (Bitcoin Core)
 ---
-Containers (Bitcoin Core)
-========
-
 /projects/bitcoin (guest) bindmounts to ${PROJECTS_DIR}/bitcoin (host)
 
 package list generated using
