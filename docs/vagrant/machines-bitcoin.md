@@ -1,7 +1,7 @@
 ---
 title: Machines (Bitcoin Core)
 ---
-/projects/bitcoin (guest) is synced to ${PROJECTS_DIR}/bitcoin (host)
+/projects/bitcoin (guest) is synced with ${PROJECTS_DIR}/bitcoin (host)
 
 package list generated using
 

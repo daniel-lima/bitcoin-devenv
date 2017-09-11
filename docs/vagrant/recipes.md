@@ -1,9 +1,6 @@
 ---
 title: Recipes
 ---
-Recipes
-=======
-
 #### Tweak memory usage on Vagrant machines
 
 1\. Create a Vagrantfile.mine anywhere
