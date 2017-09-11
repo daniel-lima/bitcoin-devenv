@@ -26,8 +26,8 @@ Installing the prerequisites
 Building the environment
 --------------------
 
-- [How to compile Bitcoin Core for Ubuntu](docker/how-to/compile-bitcoin-core-for-ubuntu.md)
-- [How to compile Bitcoin Core for Windows](docker/how-to/compile-bitcoin-core-for-windows.md)
+- [How to compile Bitcoin Core for Ubuntu](how-to/compile-bitcoin-core-for-ubuntu.md)
+- [How to compile Bitcoin Core for Windows](how-to/compile-bitcoin-core-for-windows.md)
 
 
 How does it work?
