@@ -1,18 +1,21 @@
+---
+title: Containerization
+---
 Containerization (Docker)
 ==============
 
 Installing the prerequisites
 -----------
 
-1. Access https://docs.docker.com/engine/installation
+1. Access [https://docs.docker.com/engine/installation](https://docs.docker.com/engine/installation)
 
 2. Select the CE version suitable to your architecture+operating system
 
-For instance, the instructions for Docker CE on Ubuntu would be https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+For instance, the instructions for Docker CE on Ubuntu would be [https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 
 3. Follow the instructions on how to install docker
 
-4. Access https://docs.docker.com/compose/install/
+4. Access [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 5. Select the tab corresponding to your operating system
 
@@ -20,9 +23,9 @@ For instance, the instructions for Docker CE on Ubuntu would be https://docs.doc
 
 7. Test the installed softwares
 
-   docker --version
+   ```docker --version```
 
-   docker-compose --version
+   ```docker-compose --version```
 
 
 Building the environment

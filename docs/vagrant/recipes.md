@@ -1,3 +1,6 @@
+---
+title: Recipes
+---
 Recipes
 =======
 

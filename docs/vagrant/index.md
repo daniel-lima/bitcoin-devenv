@@ -1,22 +1,25 @@
+---
+title: Virtualization
+---
 Virtualization (Vagrant)
 ==============
 
 Installing the prerequisites
 -----------
 
-1. Access https://www.vagrantup.com/downloads.html
+1. Access [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 
 2. Download and install the package suitable to your architecture+operating system
 
-3. Access https://www.virtualbox.org/wiki/Downloads
+3. Access [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 4. Follow the instructions for your operating system
 
 5. Test the installed softwares
 
-   vagrant --version
+   ```vagrant --version```
 
-   VBoxManage --version
+   ```VBoxManage --version```
 
 
 Building the environment
@@ -51,4 +54,4 @@ Further information regarding options and usage patterns can be found on the [Re
 What does each virtual machine contains?
 ---------------
 
-- [Bitcoin Core machines] (machines-bitcoin.md)
+- [Bitcoin Core machines](machines-bitcoin.md)

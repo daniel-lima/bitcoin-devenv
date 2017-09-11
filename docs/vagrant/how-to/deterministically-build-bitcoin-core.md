@@ -1,3 +1,6 @@
+---
+title: How to deterministically build Bitcoin Core (Gitian)
+---
 How to deterministically build Bitcoin Core (Gitian)
 ========
 

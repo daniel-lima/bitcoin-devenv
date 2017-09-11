@@ -1,3 +1,6 @@
+---
+title: Machines (Bitcoin Core)
+---
 Machines (Bitcoin Core)
 ========
 

@@ -1,3 +1,6 @@
+---
+title: How to compile Bitcoin Core for Windows
+---
 How to compile Bitcoin Core for Windows
 ========
 

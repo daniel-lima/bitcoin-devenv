@@ -1,5 +1,10 @@
 theme: minima
 
+github_username: daniel-lima
+
 header_pages:
  - docker/index.md
  - vagrant/index.md
+
+titles_from_headings:
+  enabled:     false

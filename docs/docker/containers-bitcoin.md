@@ -1,3 +1,6 @@
+---
+title: Containers (Bitcoin Core)
+---
 Containers (Bitcoin Core)
 ========
 

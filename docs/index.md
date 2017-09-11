@@ -1,3 +1,6 @@
+---
+title: Bitcoin Development Environment
+---
 Bitcoin Development Environment
 ========
 
