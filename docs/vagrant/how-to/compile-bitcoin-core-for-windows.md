@@ -17,7 +17,7 @@ The following steps need to be executed just once
 
     cd bitcoin-devenv
 
-4\. Build and start the vagrant machine
+<a name="step-4"></a>4\. Build and start the vagrant machine
 
     export BOX_OPTS="-l bitcoin/Vagrantfile"
 

@@ -21,7 +21,7 @@ The following steps need to be executed just once
 
 (The first time will take a while)
 
-     After booting this machine for the first time, you need to restart it:
+After booting this machine for the first time, you need to restart it:
 
      vagrant reload bitcoin.gitian
 
