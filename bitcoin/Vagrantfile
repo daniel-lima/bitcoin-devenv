@@ -13,6 +13,12 @@ Vagrant.configure("2") do |config|
     config.vm.define name, primary: (machine[:shortname] == 'ubuntu'), autostart: false do |node|
       node.vm.box = machine[:box]
 
+      if machine[:shortname] == 'ubuntu' then
+        [8332, 8333, 18332, 18333].each {
+          |port| node.vm.network 'forwarded_port', guest: port, host: port
+        }
+      end
+
       # On the host machine
       # sudo ufw allow from 192.168.33.0/24 to 192.168.33.0/24
       node.vm.synced_folder "#{PROJECTS_DIR}/bitcoin", '/projects/bitcoin'

@@ -7,7 +7,7 @@ ii  accountsservice                  0.6.35-0ubuntu7.3                          
 ii  acpid                            1:2.0.21-1ubuntu2                          amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                          all          add and remove users and groups
 ii  apparmor                         2.10.95-0ubuntu2.6~14.04.1                 amd64        user-space parser utility for AppArmor
-ii  apport                           2.14.1-0ubuntu3.25                         all          automatically generate crash reports for debugging
+ii  apport                           2.14.1-0ubuntu3.27                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                                       all          symptom scripts for apport
 ii  apt                              1.0.1ubuntu2.17                            amd64        commandline package manager
 ii  apt-transport-https              1.0.1ubuntu2.17                            amd64        https download transport for APT
@@ -17,7 +17,7 @@ ii  aptitude                         0.6.8.2-1ubuntu4                           
 ii  aptitude-common                  0.6.8.2-1ubuntu4                           all          architecture indepedent files for the aptitude package manager
 ii  at                               3.1.14-1ubuntu1                            amd64        Delayed job execution and batch processing
 rc  at-spi2-core                     2.10.2.is.2.10.1-0ubuntu1                  amd64        Assistive Technology Service Provider Interface (dbus core)
-ii  augeas-lenses                    1.2.0-0ubuntu1.2                           all          Set of lenses needed by libaugeas0 to parse config files
+ii  augeas-lenses                    1.2.0-0ubuntu1.3                           all          Set of lenses needed by libaugeas0 to parse config files
 ii  autoconf                         2.69-6                                     all          automatic configure script builder
 ii  automake                         1:1.14.1-2ubuntu1                          all          Tool for generating GNU Standards-compliant Makefiles
 ii  autotools-dev                    20130810.1                                 all          Update infrastructure for config.{guess,sub} files
@@ -26,7 +26,7 @@ ii  base-passwd                      3.5.33                                     
 ii  bash                             4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bash-completion                  1:2.1-4ubuntu0.2                           all          programmable completion for the bash shell
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
-ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                         2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  binutils-mingw-w64-i686          2.23.52.20130620-1ubuntu1+3build1          amd64        Cross-binutils for Win32 (x86) using MinGW-w64
 ii  binutils-mingw-w64-x86-64        2.23.52.20130620-1ubuntu1+3build1          amd64        Cross-binutils for Win64 (x64) using MinGW-w64
@@ -37,7 +37,7 @@ ii  busybox-initramfs                1:1.21.0-1ubuntu1                          
 ii  busybox-static                   1:1.21.0-1ubuntu1                          amd64        Standalone rescue shell with tons of builtin utilities
 ii  byobu                            5.77-0ubuntu1.2                            all          powerful, text based window manager and shell multiplexer
 ii  bzip2                            1.0.6-5                                    amd64        high-quality block-sorting file compressor - utilities
-ii  ca-certificates                  20160104ubuntu0.14.04.1                    all          Common CA certificates
+ii  ca-certificates                  20170717~14.04.1                           all          Common CA certificates
 ii  chef                             11.8.2-2                                   all          clients for the chef systems integration framework
 ii  chef-zero                        2.0.1-1                                    all          in-memory Chef server (for testing and solo purposes)
 ii  cloud-guest-utils                0.27-0ubuntu9.2                            all          cloud guest utilities
@@ -53,7 +53,7 @@ ii  cpp-4.8                          4.8.4-2ubuntu1~14.04.3                     
 ii  cron                             3.0pl1-124ubuntu2                          amd64        process scheduling daemon
 ii  cryptsetup                       2:1.6.1-1ubuntu1                           amd64        disk encryption support - startup scripts
 ii  cryptsetup-bin                   2:1.6.1-1ubuntu1                           amd64        disk encryption support - command line tools
-ii  curl                             7.35.0-1ubuntu2.10                         amd64        command line tool for transferring data with URL syntax
+ii  curl                             7.35.0-1ubuntu2.13                         amd64        command line tool for transferring data with URL syntax
 ii  dash                             0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
 ii  dbus                             1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                          1.5.51ubuntu2                              all          Debian configuration management system
@@ -63,11 +63,11 @@ ii  debianutils                      4.4                                        
 ii  dh-python                        1.20140128-1ubuntu8.2                      all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                        1:3.3-1                                    amd64        File comparison utilities
 ii  distro-info                      0.12                                       amd64        provides information about the distributions' releases
-ii  distro-info-data                 0.18ubuntu0.7                              all          information about the distributions' releases (data files)
+ii  distro-info-data                 0.18ubuntu0.8                              all          information about the distributions' releases (data files)
 ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.9                 all          Dynamic Kernel Module Support Framework
 ii  dmidecode                        2.12-2                                     amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.15                   amd64        Clients provided with BIND
+ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.16                   amd64        Clients provided with BIND
 ii  dosfstools                       3.0.26-1ubuntu0.1                          amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                             1.17.5ubuntu5.7                            amd64        Debian package management system
 ii  dpkg-dev                         1.17.5ubuntu5.7                            all          Debian package development tools
@@ -105,29 +105,29 @@ ii  gdisk                            0.8.8-1ubuntu0.1                           
 ii  geoip-database                   20140313-1                                 all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                     0.18.3.1-1ubuntu3                          amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                  1.40.0-1ubuntu0.2                          amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                              1:1.9.1-1ubuntu0.6                         amd64        fast, scalable, distributed revision control system
-ii  git-man                          1:1.9.1-1ubuntu0.6                         all          fast, scalable, distributed revision control system (manual pages)
+ii  git                              1:1.9.1-1ubuntu0.7                         amd64        fast, scalable, distributed revision control system
+ii  git-man                          1:1.9.1-1ubuntu0.7                         all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                            1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - signature verification tool
 ii  grep                             2.16-1                                     amd64        GNU grep, egrep and fgrep
 ii  groff-base                       1.22.2-5                                   amd64        GNU troff text-formatting system (base system components)
-ii  grub-common                      2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files)
+ii  grub-common                      2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists            0.6                                        amd64        GRUB gfxpayload blacklist
-ii  grub-pc                          2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                      2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                     2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                          2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                      2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                     2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files for version 2)
 ii  gzip                             1.6-3ubuntu1                               amd64        GNU compression utilities
 ii  hdparm                           9.43-1ubuntu3                              amd64        tune hard disk parameters for high performance
 ii  hostname                         3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  info                             5.2.0.dfsg.1-2                             amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers              1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.7                             all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.7                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.9                             all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.9                             amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                     5.2.0.dfsg.1-2                             amd64        Manage installed documentation in info format
-ii  iproute2                         3.12.0-2ubuntu1                            amd64        networking and traffic control tools
+ii  iproute2                         3.12.0-2ubuntu1.1                          amd64        networking and traffic control tools
 ii  iptables                         1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iputils-ping                     3:20121221-4ubuntu1.1                      amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                3:20121221-4ubuntu1.1                      amd64        Tools to trace the network path to a remote host
@@ -143,8 +143,8 @@ ii  keyutils                         1.5.6-1                                    
 ii  klibc-utils                      2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-client                 14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client
-ii  landscape-common                 14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-client                 14.12-0ubuntu6.14.04.1                     amd64        The Landscape administration system client
+ii  landscape-common                 14.12-0ubuntu6.14.04.1                     amd64        The Landscape administration system client - Common files
 ii  language-selector-common         0.129.3                                    all          Language selector for Ubuntu
 ii  laptop-detect                    0.13.7ubuntu2                              amd64        attempt to detect a laptop
 ii  less                             458-2                                      amd64        pager program similar to more
@@ -169,10 +169,10 @@ rc  libatspi2.0-0:amd64              2.10.2.is.2.10.1-0ubuntu1                  
 ii  libattr1:amd64                   1:2.4.47-1ubuntu1                          amd64        Extended attribute shared library
 ii  libaudit-common                  1:2.3.2-2ubuntu1                           all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                  1:2.3.2-2ubuntu1                           amd64        Dynamic library for security auditing
-ii  libaugeas0                       1.2.0-0ubuntu1.2                           amd64        Augeas configuration editing library and API
+ii  libaugeas0                       1.2.0-0ubuntu1.3                           amd64        Augeas configuration editing library and API
 rc  libavahi-client3:amd64           0.6.31-4ubuntu1.1                          amd64        Avahi client library
 rc  libavahi-common3:amd64           0.6.31-4ubuntu1.1                          amd64        Avahi common library
-ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.15                   amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.16                   amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                  2.20.1-5.1ubuntu20.9                       amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64   1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                    0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
@@ -197,17 +197,17 @@ rc  libcolorhug1:amd64               1.0.6-1                                    
 ii  libcomerr2:amd64                 1.42.9-3ubuntu1.3                          amd64        common error description library
 ii  libcryptsetup4                   2:1.6.1-1ubuntu1                           amd64        disk encryption support - shared library
 rc  libcups2:amd64                   1.7.2-0ubuntu1.8                           amd64        Common UNIX Printing System(tm) - Core library
-ii  libcurl3:amd64                   7.35.0-1ubuntu2.10                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64            7.35.0-1ubuntu2.10                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                   7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64            7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                      0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 rc  libdatrie1:amd64                 0.2.8-1                                    amd64        Double-array trie library
-ii  libdb5.3:amd64                   5.3.28-3ubuntu3                            amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64                   5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbus-1-3:amd64                1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64           0.100.2-1                                  amd64        simple interprocess messaging system (GLib-based shared library)
 rc  libdconf1:amd64                  0.20.0-1                                   amd64        simple configuration storage system - runtime library
 ii  libdebconfclient0:amd64          0.187ubuntu1                               amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
+ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.16                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                     1.17.5ubuntu5.7                            all          Dpkg perl modules
 rc  libdrm-intel1:amd64              2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to intel-specific kernel DRM services -- runtime
 rc  libdrm-nouveau2:amd64            2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to nouveau-specific kernel DRM services -- runtime
@@ -228,7 +228,7 @@ ii  libevent-pthreads-2.0-5:amd64    2.0.21-stable-1ubuntu1.14.04.2             
 rc  libexif12:amd64                  0.6.21-1ubuntu1                            amd64        library to parse EXIF files
 ii  libexpat1:amd64                  2.1.0-4ubuntu1.4                           amd64        XML parsing C library - runtime library
 ii  libfakeroot:amd64                1.20-3ubuntu2                              amd64        tool for simulating superuser privileges - shared libraries
-ii  libffi6:amd64                    3.1~rc1+r3.0.13-12ubuntu0.1                amd64        Foreign Function Interface library runtime
+ii  libffi6:amd64                    3.1~rc1+r3.0.13-12ubuntu0.2                amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl           0.14-2build1                               amd64        Perl module for file locking with fcntl(2)
 rc  libfontconfig1:amd64             2.11.0-0ubuntu4.2                          amd64        generic font configuration library - runtime
 rc  libfontenc1:amd64                1:1.1.2-1                                  amd64        X11 font encoding library
@@ -242,9 +242,9 @@ ii  libgck-1-0:amd64                 3.10.1-1                                   
 ii  libgcr-3-common                  3.10.1-1                                   all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64            3.10.1-1                                   amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                1.5.3-2ubuntu4.5                           amd64        LGPL Crypto library - runtime library
-rc  libgd3:amd64                     2.1.0-3ubuntu0.7                           amd64        GD Graphics Library
+rc  libgd3:amd64                     2.1.0-3ubuntu0.8                           amd64        GD Graphics Library
 ii  libgdbm3:amd64                   1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
-rc  libgdk-pixbuf2.0-0:amd64         2.30.7-0ubuntu1.6                          amd64        GDK Pixbuf library
+rc  libgdk-pixbuf2.0-0:amd64         2.30.7-0ubuntu1.7                          amd64        GDK Pixbuf library
 ii  libgeoip1:amd64                  1.6.0-1                                    amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1            1.40.0-1ubuntu0.2                          amd64        Library for handling GObject introspection data (runtime library)
 rc  libgl1-mesa-dri:amd64            10.1.3-0ubuntu0.6                          amd64        free implementation of the OpenGL API -- DRI modules
@@ -260,14 +260,14 @@ ii  libgpg-error0:amd64              1.12-0.2ubuntu1                            
 rc  libgphoto2-6:amd64               2.5.3.1-1ubuntu2.2                         amd64        gphoto2 digital camera library
 rc  libgphoto2-port10:amd64          2.5.3.1-1ubuntu2.2                         amd64        gphoto2 digital camera port library
 ii  libgpm2:amd64                    1.20.4-6.1                                 amd64        General Purpose Mouse - shared library
-rc  libgraphite2-3:amd64             1.3.6-1ubuntu0.14.04.1                     amd64        Font rendering engine for Complex Scripts -- library
+rc  libgraphite2-3:amd64             1.3.10-0ubuntu0.14.04.1                    amd64        Font rendering engine for Complex Scripts -- library
 ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - GSSAPI support library
 ii  libgssglue1:amd64                0.4-2ubuntu1                               amd64        mechanism-switch gssapi library
 rc  libgtk-3-0:amd64                 3.10.8-0ubuntu1.6                          amd64        GTK+ graphical user interface library
 rc  libgtk-3-bin                     3.10.8-0ubuntu1.6                          amd64        programs for the GTK+ graphical user interface library
 rc  libgtk-3-common                  3.10.8-0ubuntu1.6                          all          common files for the GTK+ graphical user interface library
-rc  libgudev-1.0-0:amd64             1:204-5ubuntu20.24                         amd64        GObject-based wrapper library for libudev
+rc  libgudev-1.0-0:amd64             1:204-5ubuntu20.25                         amd64        GObject-based wrapper library for libudev
 rc  libgusb2:amd64                   0.1.6-5                                    amd64        GLib wrapper around libusb1
 rc  libharfbuzz0b:amd64              0.9.27-1ubuntu1.1                          amd64        OpenType text shaping engine (shared library)
 ii  libhcrypto4-heimdal:amd64        1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - crypto library
@@ -275,13 +275,13 @@ ii  libheimbase1-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.2            
 ii  libheimntlm0-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - NTLM support library
 ii  libhx509-5-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - X509 support library
 rc  libice6:amd64                    2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
-ii  libicu52:amd64                   52.1-3ubuntu0.6                            amd64        International Components for Unicode
-ii  libidn11:amd64                   1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
+ii  libicu52:amd64                   52.1-3ubuntu0.7                            amd64        International Components for Unicode
+ii  libidn11:amd64                   1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 rc  libieee1284-3:amd64              0.2.11-12                                  amd64        cross-platform library for parallel port access
 ii  libio-string-perl                1.08-3                                     all          Emulate IO::File interface for in-core strings
-ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.15                   amd64        ISC Shared Library used by BIND
-ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Command Channel Library used by BIND
-ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.15                   amd64        Config File Handling Library used by BIND
+ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
+ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
+ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.16                   amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                   0.12.2-1                                   amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                    4.8.4-2ubuntu1~14.04.3                     amd64        GNU Transactional Memory Library
 rc  libjasper1:amd64                 1.900.1-14ubuntu3.4                        amd64        JasPer JPEG-2000 runtime library
@@ -306,7 +306,7 @@ ii  liblockfile1:amd64               1.09-6ubuntu1                              
 ii  liblog-message-simple-perl       0.10-1                                     all          simplified interface to Log::Message
 ii  libltdl-dev:amd64                2.4.2-1.7ubuntu1                           amd64        A system independent dlopen wrapper for GNU libtool
 ii  libltdl7:amd64                   2.4.2-1.7ubuntu1                           amd64        A system independent dlopen wrapper for GNU libtool
-ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                   5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  libmagic1:amd64                  1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
 ii  libmodule-pluggable-perl         5.1-1                                      all          module for giving  modules the ability to have plugins
@@ -330,7 +330,7 @@ ii  libpam-cap:amd64                 1:2.24-0ubuntu2                            
 ii  libpam-modules:amd64             1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin               1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                   1.1.8-1ubuntu2.2                           all          Runtime support for the PAM library
-ii  libpam-systemd:amd64             204-5ubuntu20.24                           amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64             204-5ubuntu20.25                           amd64        system and service manager - PAM module
 ii  libpam0g:amd64                   1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules library
 rc  libpango-1.0-0:amd64             1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
 rc  libpangocairo-1.0-0:amd64        1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
@@ -352,17 +352,17 @@ ii  libpolkit-gobject-1-0:amd64      0.105-4ubuntu3.14.04.1                     
 ii  libpopt0:amd64                   1.16-8ubuntu1                              amd64        lib for parsing cmdline parameters
 ii  libprocps3:amd64                 1:3.3.9-1ubuntu2.2                         amd64        library for accessing process information from /proc
 ii  libpython-stdlib:amd64           2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default python version)
-ii  libpython2.7:amd64               2.7.6-8ubuntu0.3                           amd64        Shared Python runtime library (version 2.7)
-ii  libpython2.7-minimal:amd64       2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
-ii  libpython2.7-stdlib:amd64        2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libpython2.7:amd64               2.7.6-8ubuntu0.4                           amd64        Shared Python runtime library (version 2.7)
+ii  libpython2.7-minimal:amd64       2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:amd64        2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-stdlib:amd64          3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4-minimal:amd64       3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64        3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4-minimal:amd64       3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64        3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64               4.8.4-2ubuntu1~14.04.3                     amd64        GCC Quad-Precision Math Library
 ii  libreadline6:amd64               6.3-4ubuntu2                               amd64        GNU readline and history libraries, run-time libraries
 ii  libroken18-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - roken support library
 ii  librtmp0:amd64                   2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
-ii  libruby1.9.1                     1.9.3.484-2ubuntu1.3                       amd64        Libraries necessary to run Ruby 1.9.1
+ii  libruby1.9.1                     1.9.3.484-2ubuntu1.5                       amd64        Libraries necessary to run Ruby 1.9.1
 rc  libsane:amd64                    1.0.23-3ubuntu3.1                          amd64        API library for scanners
 ii  libsasl2-2:amd64                 2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64           2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules
@@ -377,14 +377,14 @@ ii  libslang2:amd64                  2.2.4-15ubuntu1                            
 rc  libsm6:amd64                     2:1.2.1-2                                  amd64        X11 Session Management library
 ii  libsqlite3-0:amd64               3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
 ii  libss2:amd64                     1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
-ii  libssl-dev:amd64                 1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - development files
-ii  libssl-doc                       1.0.1f-1ubuntu2.22                         all          Secure Sockets Layer toolkit - development documentation
-ii  libssl1.0.0:amd64                1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                 1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - development files
+ii  libssl-doc                       1.0.1f-1ubuntu2.23                         all          Secure Sockets Layer toolkit - development documentation
+ii  libssl1.0.0:amd64                1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64          4.8.4-2ubuntu1~14.04.3                     amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                 4.8.4-2ubuntu1~14.04.3                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                 0.05-1build4                               amd64        module for assigning a new name to referenced sub
-ii  libsystemd-daemon0:amd64         204-5ubuntu20.24                           amd64        systemd utility library
-ii  libsystemd-login0:amd64          204-5ubuntu20.24                           amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64         204-5ubuntu20.25                           amd64        systemd utility library
+ii  libsystemd-login0:amd64          204-5ubuntu20.25                           amd64        systemd login utility library
 ii  libtasn1-6:amd64                 3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
 rc  libtdb1:amd64                    1.3.8-0ubuntu0.14.04.1                     amd64        Trivial Database - shared library
 ii  libterm-ui-perl                  0.42-1                                     all          Term::ReadLine UI made easy
@@ -400,7 +400,7 @@ ii  libtirpc1:amd64                  0.2.2-5ubuntu2                             
 ii  libtool                          2.4.2-1.7ubuntu1                           amd64        Generic library support script
 ii  libtsan0:amd64                   4.8.4-2ubuntu1~14.04.3                     amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 rc  libtxc-dxtn-s2tc0:amd64          0~git20131104-1.1                          amd64        Texture compression library for Mesa
-ii  libudev1:amd64                   204-5ubuntu20.24                           amd64        libudev shared library
+ii  libudev1:amd64                   204-5ubuntu20.25                           amd64        libudev shared library
 ii  libusb-0.1-4:amd64               2:0.1.12-23.3ubuntu1                       amd64        userspace USB programming library
 ii  libusb-1.0-0:amd64               2:1.0.17-1ubuntu2                          amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64              1.0.4-3ubuntu2                             amd64        Micro string library: shared library
@@ -429,17 +429,17 @@ rc  libxcb-shm0:amd64                1.10-2ubuntu1                              
 rc  libxcb-sync1:amd64               1.10-2ubuntu1                              amd64        X C Binding, sync extension
 ii  libxcb1:amd64                    1.10-2ubuntu1                              amd64        X C Binding
 rc  libxcomposite1:amd64             1:0.4.4-1                                  amd64        X11 Composite extension library
-rc  libxcursor1:amd64                1:1.1.14-1                                 amd64        X cursor management library
+rc  libxcursor1:amd64                1:1.1.14-1ubuntu0.14.04.1                  amd64        X cursor management library
 rc  libxdamage1:amd64                1:1.1.4-1ubuntu1                           amd64        X11 damaged region extension library
 ii  libxdmcp6:amd64                  1:1.1.1-1                                  amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1                 amd64        X11 miscellaneous extension library
 rc  libxfixes3:amd64                 1:5.0.1-1ubuntu1.1                         amd64        X11 miscellaneous 'fixes' extension library
-rc  libxfont1:amd64                  1:1.4.7-1ubuntu0.2                         amd64        X11 font rasterisation library
+rc  libxfont1:amd64                  1:1.4.7-1ubuntu0.4                         amd64        X11 font rasterisation library
 rc  libxi6:amd64                     2:1.7.1.901-1ubuntu1.1                     amd64        X11 Input extension library
 rc  libxinerama1:amd64               2:1.1.3-1                                  amd64        X11 Xinerama extension library
 rc  libxkbcommon0:amd64              0.4.1-0ubuntu1                             amd64        library interface to the XKB compiler - shared library
 rc  libxkbfile1:amd64                1:1.0.8-1                                  amd64        X11 keyboard file manipulation library
-ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.9                     amd64        GNOME XML library
+ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.12                    amd64        GNOME XML library
 rc  libxmu6:amd64                    2:1.1.1-1                                  amd64        X11 miscellaneous utility library
 ii  libxmuu1:amd64                   2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 rc  libxpm4:amd64                    1:3.5.10-1ubuntu0.1                        amd64        X11 pixmap library
@@ -451,21 +451,21 @@ ii  libxtables10                     1.4.21-1ubuntu1                            
 rc  libxtst6:amd64                   2:1.2.2-1                                  amd64        X11 Testing -- Record extension library
 rc  libxxf86vm1:amd64                1:1.1.3-1                                  amd64        X11 XFree86 video mode extension library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                           amd64        Fast YAML 1.1 parser and emitter library
-ii  linux-headers-3.13.0-128         3.13.0-128.177                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.128.137                             amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.128.137                             amd64        Transitional package.
-ii  linux-image-3.13.0-128-generic   3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.128.137                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-128.177                             amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.128.137                             amd64        Minimal Generic Linux kernel and headers
+ii  linux-headers-3.13.0-137         3.13.0-137.186                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-137-generic 3.13.0-137.186                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic            3.13.0.137.146                             amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.137.146                             amd64        Transitional package.
+ii  linux-image-3.13.0-137-generic   3.13.0-137.186                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.137.146                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-137.186                             amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.137.146                             amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                   0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
 ii  logrotate                        3.8.7-1ubuntu1.2                           amd64        Log rotation utility
 ii  lsb-base                         4.1+Debian11ubuntu6.2                      all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                      4.1+Debian11ubuntu6.2                      all          Linux Standard Base version reporting utility
-ii  lshw                             02.16-2ubuntu1.3                           amd64        information about hardware configuration
+ii  lshw                             02.16-2ubuntu1.4                           amd64        information about hardware configuration
 ii  lsof                             4.86+dfsg-1ubuntu2                         amd64        Utility to list open files
 ii  ltrace                           0.7.3-4ubuntu5.1                           amd64        Tracks runtime library calls in dynamically linked programs
 ii  m4                               1.4.17-2ubuntu1                            amd64        a macro processing language
@@ -501,16 +501,16 @@ ii  open-vm-tools                    2:9.4.0-1280544-5ubuntu6.2                 
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                          1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                          1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                        1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  overlayroot                      0.25ubuntu1.14.04.2                        all          use an overlayfs on top of a read-only root filesystem
 ii  parted                           2.3-19ubuntu1.14.04.1                      amd64        disk partition manipulator
 ii  passwd                           1:4.1.5.1-1ubuntu9.5                       amd64        change and administer password and group data
 ii  patch                            2.7.1-4ubuntu2.3                           amd64        Apply a diff file to an original
 ii  pciutils                         1:3.2.1-1ubuntu5.1                         amd64        Linux PCI Utilities
-ii  perl                             5.18.2-2ubuntu1.1                          amd64        Larry Wall's Practical Extraction and Report Language
-ii  perl-base                        5.18.2-2ubuntu1.1                          amd64        minimal Perl system
-ii  perl-modules                     5.18.2-2ubuntu1.1                          all          Core Perl modules
+ii  perl                             5.18.2-2ubuntu1.3                          amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                        5.18.2-2ubuntu1.3                          amd64        minimal Perl system
+ii  perl-modules                     5.18.2-2ubuntu1.3                          all          Core Perl modules
 ii  pkg-config                       0.26-1ubuntu4                              amd64        manage compile and link flags for libraries
 ii  plymouth                         0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - main package
 ii  plymouth-theme-ubuntu-text       0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - ubuntu-logo theme
@@ -526,7 +526,7 @@ ii  psmisc                           22.20-1ubuntu2                             
 ii  puppet                           3.4.3-1ubuntu1.2                           all          Centralized configuration management - agent startup and compatibility scripts
 ii  puppet-common                    3.4.3-1ubuntu1.2                           all          Centralized configuration management
 ii  python                           2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default version)
-ii  python-apport                    2.14.1-0ubuntu3.25                         all          Python library for Apport crash report handling
+ii  python-apport                    2.14.1-0ubuntu3.27                         all          Python library for Apport crash report handling
 ii  python-apt                       0.9.3.5ubuntu2                             amd64        Python interface to libapt-pkg
 ii  python-apt-common                0.9.3.5ubuntu2                             all          Python interface to libapt-pkg (locales)
 ii  python-chardet                   2.0.1-2build2                              all          universal character encoding detector
@@ -551,7 +551,7 @@ ii  python-openssl                   0.13-2ubuntu6                              
 ii  python-pam                       0.4.2-13.1ubuntu3                          amd64        Python interface to the PAM library
 ii  python-pkg-resources             3.3-1ubuntu2                               all          Package Discovery and Resource Access using pkg_resources
 ii  python-prettytable               0.7.2-2ubuntu2                             all          library to represent tabular data in visually appealing ASCII tables
-ii  python-problem-report            2.14.1-0ubuntu3.25                         all          Python library to handle problem reports
+ii  python-problem-report            2.14.1-0ubuntu3.27                         all          Python library to handle problem reports
 ii  python-pycurl                    7.19.3-0ubuntu3                            amd64        Python bindings to libcurl
 ii  python-requests                  2.2.1-1ubuntu0.3                           all          elegant and simple HTTP library for Python, built for human beings
 ii  python-secretstorage             2.0.0-1ubuntu1.1                           all          Python module for storing secrets - Python 2.x version
@@ -567,10 +567,10 @@ ii  python-wadllib                   1.3.2-2build1                              
 ii  python-xapian                    1.2.16-2ubuntu1                            amd64        Xapian search engine interface for Python
 ii  python-yaml                      3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python
 ii  python-zope.interface            4.0.5-1ubuntu4                             amd64        Interfaces for Python
-ii  python2.7                        2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (version 2.7)
-ii  python2.7-minimal                2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
+ii  python2.7                        2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-minimal                2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                          3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                   2.14.1-0ubuntu3.25                         all          Python 3 library for Apport crash report handling
+ii  python3-apport                   2.14.1-0ubuntu3.27                         all          Python 3 library for Apport crash report handling
 ii  python3-apt                      0.9.3.5ubuntu2                             amd64        Python 3 interface to libapt-pkg
 ii  python3-commandnotfound          0.3ubuntu12                                all          Python 3 bindings for command-not-found.
 ii  python3-dbus                     1.2.0-2build2                              amd64        simple interprocess messaging system (Python 3 interface)
@@ -579,16 +579,16 @@ ii  python3-gdbm:amd64               3.4.3-1~14.04.2                            
 ii  python3-gi                       3.12.0-1ubuntu1                            amd64        Python 3 bindings for gobject-introspection libraries
 ii  python3-minimal                  3.4.0-0ubuntu2                             amd64        minimal subset of the Python language (default python3 version)
 ii  python3-newt                     0.52.15-2ubuntu5                           amd64        NEWT module for Python3
-ii  python3-problem-report           2.14.1-0ubuntu3.25                         all          Python 3 library to handle problem reports
+ii  python3-problem-report           2.14.1-0ubuntu3.27                         all          Python 3 library to handle problem reports
 ii  python3-pycurl                   7.19.3-0ubuntu3                            amd64        Python 3 bindings to libcurl
 ii  python3-software-properties      0.92.37.8                                  all          manage the repositories that you install software from
 ii  python3-update-manager           1:0.196.24                                 all          python 3.x module for update-manager
-ii  python3.4                        3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-minimal                3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                        3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-minimal                3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                  6.3-4ubuntu2                               all          GNU readline and history libraries, common files
-ii  resolvconf                       1.69ubuntu1.1                              all          name server information handler
+ii  resolvconf                       1.69ubuntu1.3                              all          name server information handler
 ii  rpcbind                          0.2.1-2ubuntu2.2                           amd64        converts RPC program numbers into universal addresses
-ii  rsync                            3.1.0-2ubuntu0.2                           amd64        fast, versatile, remote (and local) file-copying tool
+ii  rsync                            3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                          7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  ruby                             1:1.9.3.4                                  all          Interpreter of object-oriented scripting language Ruby (default version)
 ii  ruby-augeas                      0.5.0-2                                    amd64        Augeas bindings for the Ruby language
@@ -616,7 +616,7 @@ ii  ruby-shadow                      2.2.0-1                                    
 ii  ruby-sigar                       0.7.2-2                                    amd64        System Information Gatherer And Reporter
 ii  ruby-systemu                     2.6.0-1                                    all          universal child process handling Ruby library
 ii  ruby-yajl                        1.2.0-1                                    amd64        Ruby interface to Yajl, a JSON stream-based parser library
-ii  ruby1.9.1                        1.9.3.484-2ubuntu1.3                       amd64        Interpreter of object-oriented scripting language Ruby
+ii  ruby1.9.1                        1.9.3.484-2ubuntu1.5                       amd64        Interpreter of object-oriented scripting language Ruby
 ii  run-one                          1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
 ii  screen                           4.1.0~20120320gitdb59704-9                 amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  sed                              4.2.2-4ubuntu1                             amd64        The GNU sed stream editor
@@ -627,7 +627,7 @@ ii  software-properties-common       0.92.37.8                                  
 ii  ssh-import-id                    3.21-0ubuntu1                              all          securely retrieve an SSH public key and install it locally
 ii  strace                           4.8-1ubuntu5                               amd64        A system call tracer
 ii  sudo                             1.8.9p5-1ubuntu1.4                         amd64        Provide limited super user privileges to specific users
-ii  systemd-services                 204-5ubuntu20.24                           amd64        systemd runtime services
+ii  systemd-services                 204-5ubuntu20.25                           amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                                    amd64        shim for systemd
 ii  sysv-rc                          2.88dsf-41ubuntu6.3                        all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                   2.88dsf-41ubuntu6.3                        amd64        System-V-like utilities
@@ -635,17 +635,17 @@ ii  tar                              1.27.1-1ubuntu0.1                          
 ii  tasksel                          2.88ubuntu15                               all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                               all          Official tasks used for installation of Debian systems
 ii  tcpd                             7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                          4.9.0-1ubuntu1~ubuntu14.04.1               amd64        command-line network traffic analyzer
+ii  tcpdump                          4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                           0.17-36build2                              amd64        The telnet client
 ii  time                             1.7-24                                     amd64        GNU time program for measuring CPU resource usage
 ii  tmux                             1.8-5                                      amd64        terminal multiplexer
-ii  tzdata                           2016j-0ubuntu0.14.04                       all          time zone and daylight-saving time data
+ii  tzdata                           2017c-0ubuntu0.14.04                       all          time zone and daylight-saving time data
 ii  ubuntu-keyring                   2012.05.19                                 all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                                      amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core     1:0.220.9                                  all          manage release upgrades
 ii  ubuntu-standard                  1.325                                      amd64        The Ubuntu standard system
 ii  ucf                              3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
-ii  udev                             204-5ubuntu20.24                           amd64        /dev/ and hotplug management daemon
+ii  udev                             204-5ubuntu20.25                           amd64        /dev/ and hotplug management daemon
 ii  ufw                              0.34~rc-0ubuntu2                           all          program for managing a Netfilter firewall
 ii  unattended-upgrades              0.82.1ubuntu2.5                            all          automatic installation of security upgrades
 ii  update-manager-core              1:0.196.24                                 all          manage release upgrades
@@ -660,7 +660,7 @@ ii  vim-common                       2:7.4.052-1ubuntu3.1                       
 ii  vim-runtime                      2:7.4.052-1ubuntu3.1                       all          Vi IMproved - Runtime files
 ii  vim-tiny                         2:7.4.052-1ubuntu3.1                       amd64        Vi IMproved - enhanced vi editor - compact version
 ii  w3m                              0.5.3-15ubuntu0.1                          amd64        WWW browsable pager with excellent tables/frames support
-ii  wget                             1.15-1ubuntu1.14.04.2                      amd64        retrieves files from the web
+ii  wget                             1.15-1ubuntu1.14.04.3                      amd64        retrieves files from the web
 ii  whiptail                         0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 rc  x11-common                       1:7.7+1ubuntu8.1                           all          X Window System (X.Org) infrastructure
 ii  xauth                            1:1.0.7-1ubuntu1                           amd64        X authentication utility
@@ -668,7 +668,7 @@ rc  xfonts-base                      1:1.0.3                                    
 rc  xfonts-utils                     1:7.7+1                                    amd64        X Window System font utility programs
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
-rc  xserver-xorg-core                2:1.15.1-0ubuntu2.9                        amd64        Xorg X server - core server
+rc  xserver-xorg-core                2:1.15.1-0ubuntu2.11                       amd64        Xorg X server - core server
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression utilities
 ii  zerofree                         1.0.2-1ubuntu1                             amd64        zero free blocks from ext2, ext3 and ext4 file-systems
 ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - runtime
