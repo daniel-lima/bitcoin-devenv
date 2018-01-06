@@ -33,7 +33,7 @@ Detailed guides
 Warning!!!
 --------
 
-Do not use this tool to build **production ready** versions of Bitcoin Core or any Bitcoin related software!
+Do not use this tool neither to build or run **production ready** versions of Bitcoin Core or any Bitcoin related software!
 
 The reliability of the base [Docker images](https://hub.docker.com/) and the base [Vagrant boxes](https://app.vagrantup.com/boxes/search) is unknown, so you should **not** expose your (true) private keys to them or to softwares built in/from them.
 

@@ -26,11 +26,11 @@ Using Vagrant
 Warning!!!
 --------
 
-Do not use this tool to build **production ready** versions of Bitcoin Core or any Bitcoin related software!
+Do not use this tool neither to build or run **production ready** versions of Bitcoin Core or any Bitcoin related software!
 
 The reliability of the base [Docker images](https://hub.docker.com/) and the base [Vagrant boxes](https://app.vagrantup.com/boxes/search) is unknown, so you should **not** expose your (true) private keys to them or to softwares built in/from them.
 
-If you're trying to produce deterministic builds and **you know what you're doing** and you have enough signatures to verify the generated artifacts, you may want to check bitcoin.gitian - Vagrant machine.
+If you're trying to produce deterministic builds and **you know what you're doing** and you have enough signatures to verify the generated artifacts, you may want to check [bitcoin.gitian - Vagrant machine](http://daniel-lima.github.io/bitcoin-devenv/vagrant/how-to/deterministically-build-bitcoin-core).
 
 
 License

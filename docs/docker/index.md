@@ -25,9 +25,13 @@ Installing the prerequisites
 
 Building the environment
 --------------------
-
 - [How to compile Bitcoin Core for Ubuntu](how-to/compile-bitcoin-core-for-ubuntu.md)
 - [How to compile Bitcoin Core for Windows](how-to/compile-bitcoin-core-for-windows.md)
+
+
+Using it
+--------
+- [How to run Bitcoin Core from Ubuntu](how-to/run-bitcoin-core-from-ubuntu.md)
 
 
 How does it work?

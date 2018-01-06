@@ -26,6 +26,11 @@ Building the environment
 - [How to deterministically build Bitcoin Core (Gitian)](how-to/deterministically-build-bitcoin-core.md)
 
 
+Using it
+--------
+- [How to run Bitcoin Core from Ubuntu](how-to/run-bitcoin-core-from-ubuntu.md)
+
+
 How does it work?
 -----------------
 Virtualization is achieved by the combination of the following resources:
